@@ -5,3 +5,5 @@ import "typeface-merriweather"
 import "./src/normalize.css"
 // custom CSS styles
 import "./src/style.css"
+// tailwin用
+import './src/styles/global.css';
