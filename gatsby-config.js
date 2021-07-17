@@ -14,6 +14,19 @@ module.exports = {
    * If you need any more you can search here: https://www.gatsbyjs.com/plugins/
    */
   plugins: [
+		{
+      resolve: 'gatsby-plugin-manifest',
+      options: {
+        name: 'Horumont blog',
+        short_name: 'HoruBlog',
+        start_url: '/',
+        background_color: '#333', // アプリ起動時の背景色
+        theme_color: '#d23d29', // ブラウザツールバーの色
+        display: 'minimal-ui',　// アプリのスタイル
+				icon: `./content/assets/gatsby-icon.png`
+      },
+    },
+		`gatsby-plugin-offline`,　
 		'gatsby-plugin-postcss',
     {
       /**
